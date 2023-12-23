@@ -13,4 +13,4 @@
 | 3bit | ✔ | ✔ |
 
 ## 致谢
-[SakuraLLM/Sakura-13B-Galgame](https://github.com/SakuraLLM/Sakura-13B-Galgame)
+- [SakuraLLM/Sakura-13B-Galgame](https://github.com/SakuraLLM/Sakura-13B-Galgame)
