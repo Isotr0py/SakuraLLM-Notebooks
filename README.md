@@ -6,9 +6,10 @@
 - **如果是初次接触[kaggle](https://www.kaggle.com/)/[ngrok](https://ngrok.com/)，请参考[Sakura-13B-Galgame](https://github.com/SakuraLLM/Sakura-13B-Galgame)的[kaggle部署教程](https://github.com/SakuraLLM/Sakura-13B-Galgame/wiki/%E7%99%BD%E5%AB%96Kaggle%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2%E6%95%99%E7%A8%8B)进行部署**
 
 ## News
-- 2024-02-07: 新增`llama-cpp-python` prebuilt wheels
-- 2024-01-11: 更新Kaggle-llama.cpp模型版本至[Sakura-13B-LNovel-v0.9](https://huggingface.co/SakuraLLM/Sakura-13B-LNovel-v0.9-GGUF)
-- 2024-01-01: 新增[localtunnel](https://github.com/localtunnel/localtunnel)内网穿透工具（无需注册），ngrokToken留空即可启用localtunnel
+- 2024-03-09: 新增 `ollama` 后端 Notebook，更新 Kaggle-llama.cpp 模型版本至 [Sakura-14B-Qwen2beta-v0.10pre0](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2beta-v0.10pre0-GGUF)
+- 2024-02-07: 新增 `llama-cpp-python` prebuilt wheels
+- 2024-01-11: 更新 Kaggle-llama.cpp 模型版本至 [Sakura-13B-LNovel-v0.9](https://huggingface.co/SakuraLLM/Sakura-13B-LNovel-v0.9-GGUF)
+- 2024-01-01: 新增 [localtunnel](https://github.com/localtunnel/localtunnel) 内网穿透工具（无需注册），ngrokToken 留空即可启用 localtunnel
 
 ## 模型运行情况
 - transformers autogptq模型（使用v0.8版本进行测试）
