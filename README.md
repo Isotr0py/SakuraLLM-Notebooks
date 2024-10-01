@@ -1,40 +1,10 @@
 # SakuraLLM-Notebooks
+## **:warning: 警告 :warning:**
+- **警告，Kaggle 官方已经采取措施封禁 SakuraLLM 所有模型，[参见](https://github.com/Isotr0py/SakuraLLM-Notebooks/issues/14) ，在 Kaggle 上使用 SakuraLLM 将会导致永久性封号。请转移至租卡或者利用机翻站算力共享工具（为防止滥用，请自行搜索）。**
+- **为防止滥用，本仓库的 Notebook 将不再提供内网穿透及 Sakura API 部署功能，仅提供翻译 Epub/Txt 功能。如需要使用 Sakura API，请自行部署。**
+
 ## 介绍
-- 在colab/kaggle上运行[Sakura-13B-Galgame](https://github.com/SakuraLLM/Sakura-13B-Galgame)模型
-
-## 部署教程
-- **如果是初次接触[kaggle](https://www.kaggle.com/)/[ngrok](https://ngrok.com/)，请参考[Sakura-13B-Galgame](https://github.com/SakuraLLM/Sakura-13B-Galgame)的[kaggle部署教程](https://github.com/SakuraLLM/Sakura-13B-Galgame/wiki/%E7%99%BD%E5%AB%96Kaggle%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2%E6%95%99%E7%A8%8B)进行部署**
-
-## News
-- 2024-05-09: 更新 [Sakura-32B](https://huggingface.co/SakuraLLM/Sakura-32B-Qwen2beta-v0.9-GGUF) notebook.
-- 2024-04-23: 更换 llama-cpp-python wheel index. ([#7](https://github.com/Isotr0py/SakuraLLM-Notebooks/issues/7))
-- 2024-04-11：更新 Kaggle-llama.cpp 模型版本至 [Sakura-14B-Qwen2beta-v0.9](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2beta-v0.9-GGUF)，更新 llama-cpp-python 安装指令 ([#5](https://github.com/Isotr0py/SakuraLLM-Notebooks/issues/5)).
-- 2024-03-09: 新增 `ollama` 后端 Notebook
-- 2024-02-07: 新增 `llama-cpp-python` prebuilt wheels
-- 2024-01-11: 更新 Kaggle-llama.cpp 模型版本至 [Sakura-13B-LNovel-v0.9](https://huggingface.co/SakuraLLM/Sakura-13B-LNovel-v0.9-GGUF)
-- 2024-01-01: 新增 [localtunnel](https://github.com/localtunnel/localtunnel) 内网穿透工具（无需注册），ngrokToken 留空即可启用 localtunnel
-
-## 模型运行情况
-- transformers autogptq模型（使用v0.8版本进行测试）
-
-|  模型量化类型 | colab (T4) | kaggle (T4×2) |
-|:-------:|:-------:|:-------:|
-| 全量 | ❌ | ❌ |
-| 8bit | ❌ | ✔ |
-| 4bit | ✔ | ✔ |
-| 3bit | ✔ | ✔ |
-
-- llama.cpp GGUF模型（使用v0.9版本进行测试）
-
-|  模型量化类型 | colab (T4) | kaggle (T4×2) |
-|:-------:|:-------:|:-------:|
-| fp16 | ❌ | ❌ |
-| Q8_0 | ❌ | ✔ |
-| Q6_K | ❌ | ✔ |
-| Q5_K_M | ✔ | ✔ |
-| Q4_K_M | ✔ | ✔ |
-| Q3_K_M | ✔ | ✔ |
-| Q2_K | ✔ | ✔ |
+- 在 colab 上运行[Sakura-13B-Galgame](https://github.com/SakuraLLM/Sakura-13B-Galgame)模型
 
 ## 致谢
 - [SakuraLLM/Sakura-13B-Galgame](https://github.com/SakuraLLM/Sakura-13B-Galgame)
